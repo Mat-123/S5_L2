@@ -41,7 +41,7 @@ if (!isset($_COOKIE['language'])) {
                         <option value="it" <?= $language === 'it' ? ' selected' : '' ?>>IT</option>
                         <option value="en" <?= $language === 'en' ? ' selected' : '' ?>>EN</option>
                     </select>
-                    <button>change</button>
+                    <button type="button" class="btn btn-success"><?= $labels[$language]['button'] ?></button>
                 </form>
             </div>
         </div>
