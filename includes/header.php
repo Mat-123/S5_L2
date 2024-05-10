@@ -33,7 +33,7 @@ if (!isset($_COOKIE['language'])) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="<?= SITE_URL . '/contacts.php' ?>">Contact</a>
+                        <a class="nav-link" aria-current="page" href="<?= SITE_URL . '/writeanarticle.php' ?>"><?= $labels[$language]['link1'] ?></a>
                     </li>
                 </ul>
                 <form action="<?= SITE_URL . '/change-language.php' ?>" method="get">
